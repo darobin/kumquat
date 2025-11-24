@@ -1,0 +1,38 @@
+{
+  "name": "kumquat",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Atmospheric Mangoes",
+  "author": "Robin Berjon <robin@berjon.com>",
+  "license": "Apache-2.0",
+  "scripts": {},
+  "bin": {
+    "kumquat": "./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darobin/kumquat.git"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "mocha": true,
+      "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "overrides": [],
+    "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    },
+    "rules": {}
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0"
+  },
+  "dependencies": {
+    "@skyware/jetstream": "^0.2.5",
+    "commander": "^14.0.2",
+    "pouchdb": "^9.0.0"
+  }
+}
