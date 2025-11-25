@@ -31,8 +31,12 @@
     "eslint": "^8.26.0"
   },
   "dependencies": {
+    "@atproto/xrpc-server": "^0.10.1",
     "@skyware/jetstream": "^0.2.5",
     "commander": "^14.0.2",
-    "pouchdb": "^9.0.0"
+    "express": "^5.1.0",
+    "pino": "^10.1.0",
+    "pouchdb": "^9.0.0",
+    "pouchdb-find": "^9.0.0"
   }
 }

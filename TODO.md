@@ -1,14 +1,16 @@
 
 ## Next
 
-- [ ] set up DB
-- [ ] set up Firehose
-- [ ] wire in things that get saved
-- [ ] support updates
-- [ ] support deletion
-- [ ] wire in indexing
-- [ ] put XRPC on top, blows up if unindexed
+- [x] set up DB
+- [x] set up Firehose
+- [x] wire in things that get saved
+- [x] support updates
+- [x] support deletion
+- [x] wire in indexing
+- [x] querying
+- [x] put XRPC on top, blows up if unindexed
 - [ ] deploy
 
 ## Following version
+- [ ] add some validation
 - [ ] replace Jetstream with raw, validate, and save the DRISL as attachment
