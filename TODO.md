@@ -9,7 +9,10 @@
 - [x] wire in indexing
 - [x] querying
 - [x] put XRPC on top, blows up if unindexed
+- [ ] test locally with some known lexica
 - [ ] deploy
+- [ ] docs
+- [ ] release
 
 ## Following version
 - [ ] add some validation
